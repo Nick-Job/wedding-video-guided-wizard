@@ -2,9 +2,12 @@
 
 [中文](README.md) | **English**
 
+> **This repo is a fork of [aaronyi97/wedding-video-guided-wizard](https://github.com/aaronyi97/wedding-video-guided-wizard)**, used as Nick-Job's story-card host and working copy. Original author and license: see "Sources and license" below.
+
+
 A **14-step guided skill** for turning a couple's real story and photos into a subtitled wedding film. It tells the creator what to do now, what to return, and who needs to approve it before moving on.
 
-[English story card](https://aaronyi97.github.io/wedding-video-guided-wizard/?lang=en) · [Download the skill](https://github.com/aaronyi97/wedding-video-guided-wizard/releases/latest) · [English skill instructions](SKILL.en.md) · [Detailed workflow](references/en/workflow.md)
+[English story card](https://nick-job.github.io/wedding-video-guided-wizard/?lang=en) · [Download the skill](https://github.com/Nick-Job/wedding-video-guided-wizard/releases/latest) · [English skill instructions](SKILL.en.md) · [Detailed workflow](references/en/workflow.md)
 
 Chinese is the default audience and repository homepage. English users use **the same installation and production workflow**, with English guidance, intake labels, writing/video package instructions, and word-aware subtitles. Follow the 中文 / English links to switch documentation, or use the language button on the story card.
 
@@ -14,7 +17,7 @@ The card retains the original five-act questionnaire and layout. Forward it to t
 
 Send this to Codex:
 
-> Please use skill-installer to install https://github.com/aaronyi97/wedding-video-guided-wizard. The skill is at the repository root; use wedding-video-guided-wizard as the installation name. Tell me how to start it after installation.
+> Please use skill-installer to install https://github.com/Nick-Job/wedding-video-guided-wizard. The skill is at the repository root; use wedding-video-guided-wizard as the installation name. Tell me how to start it after installation.
 
 Alternatively, extract the release ZIP as a folder named `wedding-video-guided-wizard` inside your host's configured skills directory. Install the entire package, not only SKILL.en.md. A compatible host needs local file and command capabilities; automatic discovery and media tooling depend on that host's configuration.
 

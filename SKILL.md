@@ -15,11 +15,11 @@ description: Guide a creator through a real couple's custom wedding video, from 
 
 新英文单使用 `wizard.py init PROJECT --lang en`，中文单仍默认中文；制作方与影片语言不同时，初始化指定 `--content-language zh|en`。已有单用 `wizard.py language PROJECT --lang en|zh` 切换引导与打包语言，保留原内容语言与确认记录。把工具诊断解释为用户的对话语言。中文原稿与已确认素材不因界面切换重写。
 
-英文采集卡链接为 [English story card](https://aaronyi97.github.io/wedding-video-guided-wizard/?lang=en)，也可在同一张卡顶部切换语言。采集问题和选项不变，自由填写的原文不自动翻译。文字备用版为 `assets/story-intake.en.md`。英文文案用自然口播英语表达原写作方法，不照搬中文修辞或字数配额；先核对音色实际支持英语。英文字幕按单词和实际宽度换行，中文保留原规则。
+英文采集卡链接为 [English story card](https://nick-job.github.io/wedding-video-guided-wizard/?lang=en)，也可在同一张卡顶部切换语言。采集问题和选项不变，自由填写的原文不自动翻译。文字备用版为 `assets/story-intake.en.md`。英文文案用自然口播英语表达原写作方法，不照搬中文修辞或字数配额；先核对音色实际支持英语。英文字幕按单词和实际宽度换行，中文保留原规则。
 
 ## 第一轮与续做
 
-沿用作者原有五幕问卷，保持原来的问题与选择；本包只改为填写后复制、聊天回传，不收手机号、不连接收件箱。新单直接给[电脑与手机故事采集卡](https://aaronyi97.github.io/wedding-video-guided-wizard/)。让制作方发给新人，填完点击「复制完整故事卡」，将文字和照片发回当前对话。推荐电脑，也可手机。链接不可用时提供本包 `assets/story-intake.html`；手机不方便开本地文件时发 `assets/story-intake.md`，支持聊天或语音采集后整理。不要先要求配置全部 API。
+沿用作者原有五幕问卷，保持原来的问题与选择；本包只改为填写后复制、聊天回传，不收手机号、不连接收件箱。新单直接给[电脑与手机故事采集卡](https://nick-job.github.io/wedding-video-guided-wizard/)。让制作方发给新人，填完点击「复制完整故事卡」，将文字和照片发回当前对话。推荐电脑，也可手机。链接不可用时提供本包 `assets/story-intake.html`；手机不方便开本地文件时发 `assets/story-intake.md`，支持聊天或语音采集后整理。不要先要求配置全部 API。
 
 已有项目读取该项目 `PROJECT_STATE.json` 和已登记文件，从待办继续，不能重启采集或读别的订单。新项目用 `python3 scripts/wizard.py init <项目目录>` 建立状态。展示采集卡不依赖 Python 或状态初始化成功。
 

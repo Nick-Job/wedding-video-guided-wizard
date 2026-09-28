@@ -2,9 +2,12 @@
 
 **中文** | [English](README.en.md)
 
+> **本仓库是 [aaronyi97/wedding-video-guided-wizard](https://github.com/aaronyi97/wedding-video-guided-wizard) 的 fork**，用作 Nick-Job 的采集卡托管与自用副本。原作者与许可见文末「来源与许可」。
+
+
 一个从真实故事采集到带字幕成片的 **14 步引导式 Skill**。每次只告诉制作方当前要做什么、返回什么、谁来确认，完成后再进入下一步。
 
-[打开故事采集卡](https://aaronyi97.github.io/wedding-video-guided-wizard/) · [下载 Skill](https://github.com/aaronyi97/wedding-video-guided-wizard/releases/latest) · [完整操作说明](references/workflow.md)
+[打开故事采集卡](https://nick-job.github.io/wedding-video-guided-wizard/) · [下载 Skill](https://github.com/Nick-Job/wedding-video-guided-wizard/releases/latest) · [完整操作说明](references/workflow.md)
 
 采集卡沿用作者已有的五幕问卷，保留原来的问题、选项和版式。发给新人，电脑或手机填写后一键复制，通过微信等聊天方式发回；照片原图另发。卡片不要求手机号、账号或后台提交。网页本地保存文字草稿，可以清空。
 
@@ -14,7 +17,7 @@
 
 把这段话发给 Codex：
 
-> 请使用 skill-installer 从 https://github.com/aaronyi97/wedding-video-guided-wizard 安装 Skill。Skill 位于仓库根目录，安装名用 wedding-video-guided-wizard。安装后告诉我如何在下一轮启动。
+> 请使用 skill-installer 从 https://github.com/Nick-Job/wedding-video-guided-wizard 安装 Skill。Skill 位于仓库根目录，安装名用 wedding-video-guided-wizard。安装后告诉我如何在下一轮启动。
 
 也可将 Release ZIP 解压为 `wedding-video-guided-wizard` 文件夹，放进支持 `SKILL.md` 的工具所配置的技能目录。运行工具需具备本地文件与命令能力；不同宿主的自动发现和媒体工具支持按其实际配置核对。
 
